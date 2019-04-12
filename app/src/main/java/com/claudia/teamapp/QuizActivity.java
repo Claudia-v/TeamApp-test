@@ -50,7 +50,7 @@ public class QuizActivity extends AppCompatActivity {
 
     public void updateQuestion(){
         total++;
-        if (total > 4){
+        if (total > 3){
 
             Intent intent = new Intent(QuizActivity.this, QuizResultActivity.class);
             intent.putExtra("total", String.valueOf(total));

@@ -1,5 +1,7 @@
 package com.claudia.teamapp;
 
+import androidx.annotation.NonNull;
+
 public class Question {
 
     public String question, option1, option2, option3, option4, option5, answer;
@@ -19,6 +21,7 @@ public class Question {
 
     public Question(){}
 
+    @NonNull
     public String getQuestion() {
         return question;
     }
