@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "730579980067",
+    "firebase_url": "https://teamapp-3ab7c.firebaseio.com",
+    "project_id": "teamapp-3ab7c",
+    "storage_bucket": "teamapp-3ab7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730579980067:android:e846e76922c1be34",
+        "android_client_info": {
+          "package_name": "com.claudia.teamapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730579980067-ed5qpetgd8445niid82ue52ammm031mk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.claudia.teamapp",
+            "certificate_hash": "af80bbd9bc2a12066f264acfcfd9715a78148ab2"
+          }
+        },
+        {
+          "client_id": "730579980067-7q5u25ofnf0o7b11oo8khdk4ngti4jnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_MyUwJYwnvZRDv4_12rj85RRBR8i99oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730579980067-7q5u25ofnf0o7b11oo8khdk4ngti4jnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

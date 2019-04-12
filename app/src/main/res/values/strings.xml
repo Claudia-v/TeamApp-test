@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TeamApp_NAme</string>
+    <string name="data_test">Data_test</string>
+    <string name="add_task_button">Add Task</string>
+</resources>
