@@ -24,7 +24,7 @@ public class QuizActivity extends AppCompatActivity {
 
     Button button1, button2, button3, button4, button5;
     TextView t1_question, timer;
-    int total = 1;
+    int total = 0;
     int correct = 0;
     int wrong = 0;
     DatabaseReference reference;

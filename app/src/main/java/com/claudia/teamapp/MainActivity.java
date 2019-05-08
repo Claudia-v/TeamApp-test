@@ -9,7 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 
-    Button todolist, quiz, calendar, graph;
+    Button todolist, quiz, calendar, graph, outil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         quiz = findViewById(R.id.quizButton);
         calendar = findViewById(R.id.calendarButton);
         graph = findViewById(R.id.graphButton);
+        outil = findViewById(R.id.outilButton);
 
         todolist.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent graph_intent = new Intent(MainActivity.this, GraphActivity.class);
+                startActivity(graph_intent);
+            }
+        });
+
+        outil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent graph_intent = new Intent(MainActivity.this, OutilActivity.class);
                 startActivity(graph_intent);
             }
         });

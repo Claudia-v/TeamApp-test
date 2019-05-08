@@ -29,6 +29,7 @@
         <activity android:name=".CalendarActivity" />
         <activity android:name=".QuizActivity" />
         <activity android:name=".QuizResultActivity"/>
+        <activity android:name=".OutilActivity"/>
     </application>
 
 </manifest>
